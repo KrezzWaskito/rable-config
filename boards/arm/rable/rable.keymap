@@ -60,7 +60,7 @@
       bindings = <
         &trans   &kp F1   &kp F1 &kp F2  &kp F3   &kp F4  &kp F5   &kp F6   &kp F7    &kp F8   &kp F9    &kp F10   &kp F11    &kp F12   &bt BT_CLR   &bt BT_CLR     &kp PSCRN     
         &kp F9   &trans  &rgb_ug RGB_TOG &rgb_ug RGB_EFF &rgb_ug RGB_EFR &rgb_ug RGB_BRI &rgb_ug RGB_BRD &rgb_ug RGB_SPI &rgb_ug RGB_SPD &rgb_ug RGB_HUI &rgb_ug RGB_HUD &kp PSCRN &trans   &trans  &trans   &kp PG_UP 
-        &kp F10  &bt BT_CLR  &bt BT_SEL 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans   &trans  &trans  &trans  &trans  
+        &kp F10  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans  &trans  &trans    &trans   &trans  &trans  &trans  &kp PG_DN
         &kp F11  &ext_power EP_ON   &ext_power EP_OFF   &ext_power EP_TOG    &out OUT_USB   &out OUT_BLE    &trans   &trans    &trans   &trans  &trans   &trans &trans  &trans &trans   
         &kp F12  &trans   &trans   &trans                                   &reset                                              &trans     &trans   &trans  &trans
       >;
